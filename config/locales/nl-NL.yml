@@ -166,8 +166,8 @@ nl-NL:
         one: Product
         other: Producten
       product_group: 
-        one: "Product group"
-        other: "Product groups"
+        one: "Productgroep"
+        other: "Productgroepen"
       property: 
         one: Eigenschap
         other: Eigenschappen
@@ -181,8 +181,8 @@ nl-NL:
         one: Rol
         other: Rollen
       shipment: 
-        one: Shipment
-        other: Shipments
+        one: Verzending
+        other: Zendingen
       shipping_category: 
         one: "Verzend-categorie"
         other: "Verzend-categorieën"
@@ -190,11 +190,11 @@ nl-NL:
         one: Staat
         other: Staten
       tax_category: 
-        one: "Tax Category"
-        other: "Tax Categories"
+        one: "Belastingcategorie"
+        other: "Belastingcategorieën"
       tax_rate: 
-        one: "Tax Rate"
-        other: "Tax Rates"
+        one: "Belastingtarief"
+        other: "Belastingtarieven"
       taxon: 
         one: Taxon
         other: Taxons
@@ -231,7 +231,7 @@ nl-NL:
   adjustments: Adjustments
   administration: Administratie
   all: "All"
-  all_departments: All departments
+  all_departments: Alle afdelingen
   allow_backorders: "Nabestellingen toelaten"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: "SSL gebruik toestaan in ontwikkel- en testomgevingen"
   allow_ssl_to_be_used_when_in_production_mode: "SSL gebruik toestaan in productie-omgeving"
@@ -350,7 +350,7 @@ nl-NL:
   debit: Debit
   default: Default
   delete: Verwijder
-  delivery: Delivery
+  delivery: Bezorging
   depth: Diepte
   description: Omschrijving
   destroy: Verwijder
@@ -466,7 +466,7 @@ nl-NL:
   inventory_settings: "Voorraad instellingen"
   is_not_available_to_shipment_address: is not available to shipment address
   issue_number: Issue Number
-  item: Products
+  item: Producten
   item_description: "Product Omschrijving"
   item_total: "Product Totaal"
   item_total_rule: 
@@ -558,8 +558,8 @@ nl-NL:
   no_items_in_cart: "Geen producten in Winkelwagen"
   no_match_found: "Geen gelijke gevonden"
   no_payment_methods_available: "Can't check out, no payment methods are configured for this environment"
-  no_products_found: "No products found"
-  no_results: "No results"
+  no_products_found: "Geen producten gevonden"
+  no_results: "Geen zoekresultaten"
   no_rules_added: No rules added
   no_user_found: "No user was found with that email address"
   none: Geen
@@ -603,18 +603,18 @@ nl-NL:
   order_processed_successfully: "Uw bestelling is succesvol verwerkt"
   order_state: # keys correspond to Checkout state names:
     # keys correspond to Checkout state names: 
-    address: address
-    adjustments: adjustments
-    awaiting_return: awaiting return
-    canceled: canceled
-    cart: cart
-    complete: complete
-    confirm: confirm
-    delivery: delivery
-    payment: payment
-    resumed: resumed
-    returned: returned
-  order_summary: Order Summary
+    address: adres
+    adjustments: prijsberekening
+    awaiting_return: wacht op retour
+    canceled: ongedaan gemaakt
+    cart: winkelwagen
+    complete: compleet
+    confirm: bevestiging
+    delivery: bezorging
+    payment: betaling
+    resumed: hervatting
+    returned: geretourneerd
+  order_summary: Samenvatting bestelling
   order_sure_want_to: "Are you sure you want to %{event} this order?"
   order_total: "Bestelling Totaal"
   order_total_message: "Het totaalbedrag is"
@@ -622,7 +622,7 @@ nl-NL:
   orders: Bestellingen
   other_payment_options: Other Payment Options
   out_of_stock: "Niet op Voorraad"
-  out_of_stock_products: "Out of Stock Products"
+  out_of_stock_products: "Producten niet op voorraad"
   over_paid: "Over Paid"
   overview: Overzicht
   overview_welcome: "Welcome to your store overview, currently we do not have enough data to display the Overiew Dashboard.<br/><br/> The dashboard will display automatically once the system has sufficent orders to allow generation of the statistics."
@@ -807,7 +807,7 @@ nl-NL:
         name: "With property value"
         sentence: with property <em>%s</em> and value <em>%s</em>
   products: Producten
-  products_with_zero_inventory_display: "Products with a zero inventory will %{not} be displayed"
+  products_with_zero_inventory_display: "Producten zonder voorraad zullen %{not} worden getoond"
   promotion: Promotion
   promotion_form: 
     match_policies: 
@@ -962,10 +962,10 @@ nl-NL:
   ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
   start: Start
   start_date: Valid from
-  state: Status
+  state: Staat
   state_based: "Status Gebaseerd"
   state_setting_description: "Beheer de lijst van staten/provincies die geassocieerd zijn met elk land."
-  states: Statussen
+  states: Staten
   status: Status
   stop: Stop
   store: Winkel
@@ -1028,7 +1028,7 @@ nl-NL:
   updating: Updating
   usage_limit: Usage Limit
   use_as_shipping_address: "Gebruik als afleveringsadres"
-  use_billing_address: "Gebruik als factuuradres"
+  use_billing_address: "Afleveren op factuuradres"
   use_different_shipping_address: "Ander afleveringsadres gebruiken"
   use_new_cc: "Use a new card"
   user: Gebruiker
