@@ -89,7 +89,7 @@ nl-NL:
         name: "Name"
         product_count: "Product count"
         product_scopes: "Product scopes"
-        products: "Products"
+        products: "Producten"
         url: "URL"
       product_scope: 
         arguments: "Arguments"
@@ -304,7 +304,7 @@ nl-NL:
   charge_total: Charge Total
   charged: Afgeboekt
   charges: Charges
-  checkout: Bestelling
+  checkout: Bestellen
   cheque: Cheque
   city: Stad
   clone: Clone
@@ -382,7 +382,7 @@ nl-NL:
   email: E-mail
   email_address: "E-mail Adres"
   email_server_settings_description: "E-mail server installen."
-  empty: "Empty"
+  empty: "Leeg"
   empty_cart: "Winkelwagen leegmaken"
   enable_login_via_login_password: "Use standard email/password"
   enable_login_via_openid: "Use OpenID instead"
@@ -1022,9 +1022,9 @@ nl-NL:
   under_paid: "Under Paid"
   units: "Units"
   unrecognized_card_type: Unrecognized card type
-  update: Updaten
-  update_password: "Update mijn wachtwoord en log mij in"
-  updated_successfully: "Update gelukt"
+  update: "Opnieuw berekenen"
+  update_password: "Wachtwoord opslaan en gebruiken"
+  updated_successfully: "Opslaan gelukt"
   updating: Updating
   usage_limit: Usage Limit
   use_as_shipping_address: "Gebruik als afleveringsadres"
