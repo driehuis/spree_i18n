@@ -419,7 +419,7 @@ nl-NL:
   flat_rate_per_item: "Flat Rate (per item)"
   flat_rate_per_order: "Flat Rate (per order)"
   flexible_rate: "Flexible Rate"
-  forgot_password: "Forgot Password"
+  forgot_password: "Wachtwoord vergeten"
   free_shipping: Free Shipping
   from_state: From State
   front_end: Front End
@@ -439,8 +439,8 @@ nl-NL:
   google_analytics_id: "Analytics ID"
   google_analytics_new: "Nieuwe Google Analytics Account"
   google_analytics_setting_description: "Instellen Google Analytics ID"
-  guest_checkout: Guest Checkout
-  guest_user_account: Checkout as a Guest
+  guest_checkout: Als Gast bestellen
+  guest_user_account: Als Gast bestellen (geen registratie nodig)
   has_no_shipped_units: has no shipped units
   height: Hoogte
   hello_user: "Hallo Gebruiker"
@@ -839,14 +839,14 @@ nl-NL:
   quantity_shipped: Quantity Shipped
   range: "Range"
   rate: Tarief
-  reason: Reason
+  reason: Reden
   recalculate_order_total: "Recalculate order total"
-  receive: receive
-  received: Received
+  receive: ontvang
+  received: Ontvangen
   refund: Refund
-  register: Register as a New User
-  register_or_guest: Checkout as Guest or Register
-  registration: Registration
+  register: Inschrijven als nieuwe gebruiker
+  register_or_guest: Bestellen als Gast of als Geregistreerde gebruiker
+  registration: Registratie
   remember_me: "Onthouden"
   remove: Verwijderen
   reports: Rapporten
@@ -969,8 +969,8 @@ nl-NL:
   status: Status
   stop: Stop
   store: Winkel
-  street_address: "Adres lijn 1"
-  street_address_2: "Adres lijn 2"
+  street_address: "Adres"
+  street_address_2: "Adres regel 2"
   subtotal: Subtotaal
   subtract: Verreken
   successfully_created: "%{resource} has been successfully created!"
