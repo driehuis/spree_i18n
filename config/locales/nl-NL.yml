@@ -440,7 +440,7 @@ nl-NL:
   google_analytics_new: "Nieuwe Google Analytics Account"
   google_analytics_setting_description: "Instellen Google Analytics ID"
   guest_checkout: Als Gast bestellen
-  guest_user_account: Als Gast bestellen (geen registratie nodig)
+  guest_user_account: Als Gast bestellen (geen registratie)
   has_no_shipped_units: has no shipped units
   height: Hoogte
   hello_user: "Hallo Gebruiker"
@@ -970,7 +970,7 @@ nl-NL:
   stop: Stop
   store: Winkel
   street_address: "Adres"
-  street_address_2: "Adres regel 2"
+  street_address_2: "Adres (vervolg)"
   subtotal: Subtotaal
   subtract: Verreken
   successfully_created: "%{resource} has been successfully created!"
