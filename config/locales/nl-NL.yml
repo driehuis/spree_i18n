@@ -647,15 +647,15 @@ nl-NL:
   payment_processing_failed: "Payment could not be processed, please check the details you entered"
   payment_state: Betalingstoestand
   payment_states:
-    balance_due: balance due
-    checkout: checkout
-    completed: completed
-    credit_owed: credit owed
-    failed: failed
-    paid: paid
-    pending: pending
-    processing: processing
-    void: void
+    balance_due: te betalen
+    checkout: kassa
+    completed: afgerond
+    credit_owed: tegoed
+    failed: niet geslaagd
+    paid: betaald
+    pending: in afwachting
+    processing: in bewerking
+    void: ongeldig
   payment_updated: Payment Updated
   payments: Betalingen
   pending_payments: Pending Payments
@@ -906,11 +906,11 @@ nl-NL:
   shipment_number: "Zending #"
   shipment_state: Verzendingstoestand
   shipment_states:
-    backorder: backorder
-    partial: partial
-    pending: pending
-    ready: ready
-    shipped: shipped
+    backorder: in nabestelling
+    partial: deellevering
+    pending: in afwachting
+    ready: klaar
+    shipped: verzonden
   shipment_updated: Shipment Updated
   shipments: "Shipments"
   shipped: Verzonden
