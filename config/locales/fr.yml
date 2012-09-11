@@ -671,6 +671,7 @@ fr:
   preview: Aperçu
   previous: Précédent
   price: Prix
+  price_range: "Prix"
   price_bucket: Price Bucket # Prix du seau ?
   price_with_vat_included: "%{price} (TTC)"
   problem_authorizing_card: "Problème d'autorisation de votre carte de crédit"
@@ -1052,6 +1053,13 @@ fr:
   variants: Gammes
   vat: "TVA"
   version: Version
+  views:
+    pagination:
+      first: "&laquo; Premier"
+      last: "Dernier &raquo;"
+      previous: "&lsaquo; Précédent"
+      next: "Suivant &rsaquo;"
+      truncate: "..."
   view_shipping_options: "Options de la vue livraison"
   void: Annule
   website: Site Web
@@ -1096,8 +1104,8 @@ fr:
       updated: 'Votre compte a été modifié avec succès.'
       destroyed: 'Votre compte a été supprimé avec succès. Nous espérons vous revoir bientôt.'
     user_sessions:
-      signed_in: "Connecté."
-      signed_out: "Déconnecté."
+      signed_in: "Connexion réussie."
+      signed_out: "Vous avez été déconnecté."
     unlocks:
       send_instructions: 'Vous allez recevoir les instructions nécessaires au déverrouillage de votre compte dans quelques instants'
       unlocked: 'Votre compte a été déverrouillé avec succès, vous êtes maintenant connecté.'
