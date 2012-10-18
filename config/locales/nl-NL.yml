@@ -301,9 +301,9 @@ nl-NL:
   change: Wijzig
   change_language: "Taalkeuze"
   change_my_password: "Wijzig mijn wachtwoord"
-  charge_total: Charge Total
+  charge_total: Totaal in rekening gebracht
   charged: Afgeboekt
-  charges: Charges
+  charges: In rekening gebracht
   checkout: Bestellen
   cheque: Cheque
   city: Stad
@@ -338,101 +338,101 @@ nl-NL:
   credit_card: "Creditcard"
   credit_card_capture_complete: "Afboeking via creditcard voltooid"
   credit_card_payment: "Creditcard Betaling"
-  credit_owed: "Credit Owed"
-  credit_total: Credit Total
+  credit_owed: "Verschildigd krediet"
+  credit_total: Totaal krediet
   credits: Credits
   current: Huidige
   customer: Klant
-  customer_details: "Customer Details"
-  customer_search: "Customer Search"
-  date_created: Date created
+  customer_details: "Klant details"
+  customer_search: "Klant zoeken"
+  date_created: Datum aangemaakt
   date_range: "Datum Bereik"
   debit: Debit
-  default: Default
+  default: Verstekwaarde
   delete: Verwijder
   delivery: Bezorging
   depth: Diepte
   description: Omschrijving
   destroy: Verwijder
-  didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
-  didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
-  discount_amount: "Discount Amount"
+  didnt_receive_confirmation_instructions: "Geen bevestigingsinstructies ontvangen?"
+  didnt_receive_unlock_instructions: "Geen ontgrendelingsinstructies ontvangen?"
+  discount_amount: "Kortingsbedrag"
   display: Weergeven
   edit: Wijzig
-  edit_general_settings: "Edit General Settings"
-  editing_billing_integration: Editing Billing Integration
+  edit_general_settings: "Algemene instellingen wijzigen"
+  editing_billing_integration: Factuurintegratie wijzigen
   editing_category: "Wijzig Categorie"
-  editing_mail_method: Editing Mail Method
-  editing_option_type: "Optie Type Wijzigen"
-  editing_option_types: "Optie Types Wijzigen"
-  editing_payment_method: Editing Payment Method
-  editing_product: "Product Wijzigen"
-  editing_product_group: "Editing Product Group"
-  editing_promotion: Editing Promotion
-  editing_property: "Eigenschap Wijzigen"
-  editing_prototype: "Prototype Wijzigen"
+  editing_mail_method: "E-Mail methode wijzigen"
+  editing_option_type: "Optie type wijzigen"
+  editing_option_types: "Optie types wijzigen"
+  editing_payment_method: "Betaalmethode wijzigen"
+  editing_product: "Product wijzigen"
+  editing_product_group: "Productgroep wijzigen"
+  editing_promotion: "Promotie wijzigen"
+  editing_property: "Eigenschap wijzigen"
+  editing_prototype: "Prototype wijzigen"
   editing_shipping_category: "Wijzigen verzend-categorie"
   editing_shipping_method: "Wijzigen verzendwijze"
   editing_state: "Wijzigen Staat"
   editing_tax_category: "Wijzigen BTW categorie"
-  editing_tax_rate: "Editing Tax Rate"
-  editing_tracker: Editing Tracker
-  editing_user: "Gebruiker Wijzigen"
-  editing_zone: "Zone Wijzigen"
+  editing_tax_rate: "Belastingtarief wijzigen"
+  editing_tracker: "Tracker wijzigen"
+  editing_user: "Gebruiker wijzigen"
+  editing_zone: "Zone wijzigen"
   email: E-mail
-  email_address: "E-mail Adres"
-  email_server_settings_description: "E-mail server installen."
+  email_address: "E-mail adres"
+  email_server_settings_description: "E-mail server instellingen."
   empty: "Leeg"
   empty_cart: "Winkelwagen leegmaken"
-  enable_login_via_login_password: "Use standard email/password"
-  enable_login_via_openid: "Use OpenID instead"
+  enable_login_via_login_password: "Gebruik standaard email/wachtwoord"
+  enable_login_via_openid: "Gebruik OpenID in plaats daarvan"
   enable_mail_delivery: "Mail aflevering aanzetten"
-  enter_atleast_five_letters: Enter atleast five letters of customer name
-  enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
-  enter_password_to_confirm: "(we need your current password to confirm your changes)"
-  environment: "Environment"
-  error: fout
+  enter_atleast_five_letters: "Geef minstens vijf letters van de klant naam"
+  enter_exactly_as_shown_on_card: "Exact overnemen van de kaart"
+  enter_password_to_confirm: "(we hebben uw huidig wachtwoord nodig ter bevestiging)"
+  environment: "Omgeving"
+  error: Fout
   errors:
     messages:
-      could_not_create_taxon: "Could not create taxon"
-      no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
+      could_not_create_taxon: "Kon taxon niet creëren"
+      no_shipping_methods_available: "Geen verzendmethode beschikbaar voor uw locatie, kies een ander adres."
   errors_prohibited_this_record_from_being_saved:
-    one: "1 error prohibited this record from being saved"
-    other: "%{count} errors prohibited this record from being saved"
+    one: "Door één fout kon deze bestandsregel niet worden opgeslagen"
+    other: "Door %{count} fouten kon deze bestandsregel niet worden opgeslagen"
   event: Gebeurtenis
   existing_customer: "Bestaande Klant"
-  expiration: Verval
+  expiration: "Vervaldatum"
   expiration_month: "Vervalmaand"
   expiration_year: "Vervaljaar"
-  expiry: Expiry
+  expiry: Vervallen
   extension: Extensie
   extensions: Extensies
   filename: Bestandsnaam
   final_confirmation: "Definitieve bevestiging"
-  finalize: Finalize
-  finalized_payments: Finalized Payments
-  first_item: First Item Cost
+  finalize: Vastleggen
+  finalized_payments: "Vastgelegde betalingen"
+  first_item: Kosten eerste item
   first_name: "Voornaam"
-  first_name_begins_with: "First Name Begins With"
-  flat_percent: Flat Percent
-  flat_rate_amount: Amount
-  flat_rate_per_item: "Flat Rate (per item)"
-  flat_rate_per_order: "Flat Rate (per order)"
-  flexible_rate: "Flexible Rate"
+  first_name_begins_with: "Voornaam begint met"
+  flat_percent: Vast percentage
+  flat_rate_amount: Vast tarief aantal
+  flat_rate_per_item: "Vast tarief (per item)"
+  flat_rate_per_order: "Vast tarief (per bestelling)"
+  flexible_rate: "Variable tarief"
   forgot_password: "Wachtwoord vergeten"
-  free_shipping: Free Shipping
-  from_state: From State
+  free_shipping: Gratis verzending
+  from_state: Afzender staat
   front_end: Front End
-  full_name: "Full Name"
+  full_name: "Volledige naam"
   gateway: Gateway
-  gateway_config_unavailable: "Gateway unavailable for environment"
-  gateway_configuration: "Gateway configuration"
-  gateway_error: "Gateway Fout"
+  gateway_config_unavailable: "Gateway configuratie niet beschikbaar"
+  gateway_configuration: "Gateway configuratie"
+  gateway_error: "Gateway fout"
   gateway_setting_description: "Selecteer een betalings-gateway en stel deze in."
-  gateway_settings_warning: "If you are changing the gateway type, you must save first before you can edit the gateway settings"
-  general: "General"
-  general_settings: "Algemene Instellingen"
-  general_settings_description: "Algemene Spree Instellingen."
+  gateway_settings_warning: "Als u het gateway type verandert, dient u eerst op te slaan alvorens gateway instellingen aan te passen"
+  general: "Algemeen"
+  general_settings: "Algemene instellingen"
+  general_settings_description: "Algemene Spree instellingen."
   google_analytics: "Google Analytics"
   google_analytics_active: "Actief"
   google_analytics_create: "Nieuw Google Analytics account aanmaken"
@@ -441,38 +441,38 @@ nl-NL:
   google_analytics_setting_description: "Instellen Google Analytics ID"
   guest_checkout: Als Gast bestellen
   guest_user_account: Als Gast bestellen (geen registratie)
-  has_no_shipped_units: has no shipped units
+  has_no_shipped_units: Heeft geen verzonden units
   height: Hoogte
   hello_user: "Hallo Gebruiker"
-  history: History
+  history: Geschiedenis
   home: "Home"
-  icon: "Icon"
-  icons_by: "Icons by"
+  icon: "Icoon"
+  icons_by: "Iconen door"
   image: Afbeelding
   images: Afbeeldingen
-  images_for: "Images for"
-  in_progress: "Aan de gang"
-  include_in_shipment: Include in Shipment
-  included_in_other_shipment: Included in another Shipment
-  included_in_this_shipment: Included in this Shipment
-  instructions_to_reset_password: "Fill out the form below and instructions to reset your password will be emailed to you:"
-  integration_settings_warning: "If you are changing the billing integration, you must save first before you can edit the integration settings"
-  intercept_email_address: Intercept Email Address
-  intercept_email_instructions: "Override email recipient and replace with this address."
+  images_for: "Afbeeldingen voor"
+  in_progress: "In bewerking"
+  include_in_shipment: In zending opnemen
+  included_in_other_shipment: In andere zending opgenomen
+  included_in_this_shipment: In deze zending opgenomen
+  instructions_to_reset_password: "Vul onderstaan formulier in en instructies voor een nieuw wachtwoord worden toegezonden:"
+  integration_settings_warning: "Als u factuurintegratie wijzigt, dient u eerst op te slaan alvorens integratieinstellingen aan te passen"
+  intercept_email_address: "Onderscheppings-emailadres"
+  intercept_email_instructions: "Verstuur aan dit adres in plaats van het gebruikers-emailadres."
   invalid_search: "Foute zoekcriteria."
   inventory: Voorraad
   inventory_adjustment: "Voorraad Aanpassing"
-  inventory_setting_description: "Voorraad instellingen, Nabestellingen, Nul-Voorraad Weergave"
+  inventory_setting_description: "Voorraad instellingen, nabestellingen, Nul-voorraad weergave"
   inventory_settings: "Voorraad instellingen"
-  is_not_available_to_shipment_address: is not available to shipment address
-  issue_number: Issue Number
+  is_not_available_to_shipment_address: Niet beschikbaar voor dit verzendadres
+  issue_number: Voorval nummer
   item: Producten
   item_description: "Product Omschrijving"
   item_total: "Product Totaal"
   item_total_rule:
     operators:
-      gt: greater than
-      gte: greater than or equal to
+      gt: groter dan
+      gte: groter dan of gelijk
   items: "Items"
   last_14_days: "Last 14 Days"
   last_5_orders: "Last 5 Orders"
