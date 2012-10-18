@@ -644,7 +644,7 @@ nl-NL:
   payment_method: Betaalwijze
   payment_methods: Betaalwijzen
   payment_methods_setting_description: Configureer betaalmogelijkheden voor klanten
-  payment_processing_failed: "Uw betaling kon niet worden verwerkt, controleer s.v.p. uw invoer".
+  payment_processing_failed: "Uw betaling kon niet worden verwerkt, controleer s.v.p. uw invoer"
   payment_state: Betalingstoestand
   payment_states:
     balance_due: nog te betalen
