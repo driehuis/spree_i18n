@@ -595,7 +595,7 @@ nl-NL:
     cancel_email:
       subject: "Opheffing bestelling"
     confirm_email:
-      subject: "Bevestiging bestelling
+      subject: "Bevestiging bestelling"
   order_not_in_system: Dit bestelnummer is hier niet bekend.
   order_number: "Bestellingsnummer"
   order_operation_authorize: Autoriseren
