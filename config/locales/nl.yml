@@ -811,37 +811,37 @@ nl-NL:
   promotion: Promotie
   promotion_form:
     match_policies:
-      all: Match any of these rules
-      any: Match all of these rules
+      all: Voldoe aan minimaal één regel
+      any: Voldoe aan alle regels
   promotion_rule_types:
     first_order:
-      description: Must be the customer's first order
-      name: First order
+      description: Alleen bij de eerste bestelling van deze klant
+      name: Eerste bestelling
     item_total:
-      description: Order total meets these criteria
-      name: Item total
+      description: Totaal bedrag voldoet aan deze criteria
+      name: Totaal bedrag
     product:
-      description: Order includes specified product(s)
-      name: Product(s)
+      description: Bestelling omvat bepaalde producten
+      name: Producten
     user:
-      description: Available only to the specified users
-      name: User
-  promotions: Promotions
-  promotions_description: Manage offers and coupons with promotions
+      description: Alleen beschikbaar voor bepaalde gebruikers
+      name: Gebruiker
+  promotions: Promoties
+  promotions_description: Beheer aanbiedingen en coupons met promoties
   properties: Eigenschappen
   property: Eigenschap
   prototype: Prototype
   prototypes: Prototypes
   provider: "Provider"
-  provider_settings_warning: "If you are changing the provider type, you must save first before you can edit the provider settings"
+  provider_settings_warning: "Als u het provider type verandert, dient u eerst op te slaan alvorens provider eigenschappen te wijzigen"
   qty: Aantal
-  quantity_returned: Quantity Returned
-  quantity_shipped: Quantity Shipped
-  range: "Range"
+  quantity_returned: Aantal geretourneerd
+  quantity_shipped: Aantal verzonden
+  range: "Bereik"
   rate: Tarief
   reason: Reden
-  recalculate_order_total: "Recalculate order total"
-  receive: ontvang
+  recalculate_order_total: "Herberekenen totaalbedrag"
+  receive: Ontvang
   received: Ontvangen
   refund: Refund
   register: Inschrijven als nieuwe gebruiker
@@ -850,59 +850,59 @@ nl-NL:
   remember_me: "Onthouden"
   remove: Verwijderen
   reports: Rapporten
-  required_for_solo_and_maestro: Required for Solo and Maestro cards.
+  required_for_solo_and_maestro: Verplicht voor Solo en Maestro kaarten.
   resend: "Opnieuw verzenden"
-  resend_confirmation_instructions: "Resend confirmation instructions"
-  resend_unlock_instructions: "Resend unlock instructions"
-  reset_password: "Reset my password"
+  resend_confirmation_instructions: "Opnieuw verzenden instructies voor bevestiging"
+  resend_unlock_instructions: "Opnieuw verzenden instructies voor ontgrendeling"
+  reset_password: "Vraag een nieuw wachtwoord aan"
   resource_controller:
-    member_object_not_found: "Member object not found."
-    successfully_created: "Successfully created!"
-    successfully_removed: "Successfully removed!"
-    successfully_updated: "Successfully updated!"
+    member_object_not_found: "Object niet gevonden."
+    successfully_created: "Succesvol gecreëerd!"
+    successfully_removed: "Succesvol verwijderd!"
+    successfully_updated: "Succesvol aangepast!"
   response_code: "Antwoord Code"
   resume: "Hervatten"
   resumed: Hervat
   return: Terugzenden
-  return_authorization: Return Authorization
-  return_authorization_updated: Return authorization updated
-  return_authorizations: Return Authorizations
-  return_quantity: Return Quantity
+  return_authorization: Retourgoedkeuring
+  return_authorization_updated: Retourgoedkeuring aangepast
+  return_authorizations: Retourgoedkeuringen
+  return_quantity: Retourhoeveelheid
   returned: Teruggezonden
-  rma_credit: RMA Credit
-  rma_number: RMA Number
-  rma_value: RMA Value
+  rma_credit: Retourgoedkeuring krediet
+  rma_number: Retourgoedkeuringsnummer
+  rma_value: Retourgoedkeuringswaarde
   roles: Rollen
-  rules: Rules
-  sales_tax: "Sales Tax"
+  rules: Regels
+  sales_tax: "Omzetbelasting"
   sales_total: "Omzet"
-  sales_total_description: "Sales Total For All Orders"
-  save_and_continue: Save and Continue
+  sales_total_description: "Omzettotaal voor alle bestellingen"
+  save_and_continue: Opslaan en doorgaan
   save_preferences: "Instellingen Opslaan"
-  scope: Scope
-  scopes: Scopes
+  scope: Reikwijdte
+  scopes: Reikwijdtes
   search: Zoek
-  search_results: "Search results for '%{keywords}'"
-  searching: Searching
-  secure_connection_type: "Secure Connection Type"
+  search_results: "Zoekresultaat voor '%{keywords}'"
+  searching: Bezig met zoeken
+  secure_connection_type: "Type van beveiligde verbinding"
   select: Selecteer
   select_from_prototype: "Selecteer vanuit Prototype"
   select_preferred_shipping_option: "Selecteer verzendvoorkeursoptie"
   send_copy_of_all_mails_to: "Zend kopie van alle mails naar"
   send_copy_of_orders_mails_to: "Zend kopie van bestelmails naar"
   send_mails_as: "Zend mail als"
-  send_me_reset_password_instructions: "Send me reset password instructions"
-  send_order_mails_as: "Zend bestelmaild als"
+  send_me_reset_password_instructions: "Stuur mij instructies voor het aanvragen van een nieuw wachtwoord"
+  send_order_mails_as: "Zend bestelmails als"
   server: Server
-  server_error: "The server returned an error"
+  server_error: "De server gaf een foutmelding"
   settings: Settings
   ship: Verzenden
   ship_address: "Afleveringssadres"
   shipment: Verzending
-  shipment_details: Shipment Details
+  shipment_details: Details van de zebding
   shipment_mailer:
     shipped_email:
-      subject: "Shipment Notification"
+      subject: "Notificatie van verzending"
   shipment_number: "Zending #"
   shipment_state: Verzendingstoestand
   shipment_states:
@@ -911,17 +911,17 @@ nl-NL:
     pending: in afwachting
     ready: klaar
     shipped: verzonden
-  shipment_updated: Shipment Updated
-  shipments: "Shipments"
+  shipment_updated: Verzendinformatie aangepast
+  shipments: "Zendingen"
   shipped: Verzonden
   shipping: Verzending
   shipping_address: "Afleveringsadres"
   shipping_categories: "Verzend-categorieën"
   shipping_categories_description: "Beheer verzend-categorieën om duidelijk te maken op welke wijze producten verzonden kunnen worden"
-  shipping_category: Shipping Category
+  shipping_category: Verzendcategorie
   shipping_cost: Verzendkosten
   shipping_error: "Fout bij aflevering"
-  shipping_instructions: "Shipping Instructions"
+  shipping_instructions: "Verzendinstructies"
   shipping_method: "Verzendwijze"
   shipping_methods: "Verzendwijzen"
   shipping_methods_description: "Beheer verzendwijzen"
@@ -934,24 +934,24 @@ nl-NL:
   show_incomplete_orders: "Toon niet afgewerkte bestellingen"
   show_only_complete_orders: "Toon enkel afgewerkte bestellingen"
   show_out_of_stock_products: "Toon producten die niet voorradig zijn"
-  show_price_inc_vat: "Show price including VAT"
-  showing_first_n: "Showing first %{n}"
+  show_price_inc_vat: "Toon prijs inclusief BTW"
+  showing_first_n: "Toont eerste %{n}"
   sign_up: "Registreer"
   site_name: "Site naam"
   site_url: "Site URL"
   sku: Sku
   smtp: SMTP
-  smtp_authentication_type: "SMTP Autorisatie Type"
-  smtp_domain: "SMTP Domein"
-  smtp_mail_host: "SMTP Mail Host"
-  smtp_password: "SMTP Wachtwoord"
-  smtp_port: "SMTP Poort"
-  smtp_send_all_emails_as_from_following_address: "Send all mails as from the following address."
-  smtp_send_copy_to_this_addresses: "Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas."
-  smtp_username: "SMTP Gebruikersnaam"
-  sold: Sold
-  sort_ordering: "Sort ordering"
-  special_instructions: "Special Instructions"
+  smtp_authentication_type: "SMTP autorisatie type"
+  smtp_domain: "SMTP domein"
+  smtp_mail_host: "SMTP mail host"
+  smtp_password: "SMTP wachtwoord"
+  smtp_port: "SMTP poort"
+  smtp_send_all_emails_as_from_following_address: "Gebruik het volgende e-mail adres als afzender."
+  smtp_send_copy_to_this_addresses: "Stuur een kopie van alle uitgaande post aan dit adres. Scheid meerdere adressen met commas."
+  smtp_username: "SMTP gebruikersnaam"
+  sold: Verkocht
+  sort_ordering: "Sorteervolgorde"
+  special_instructions: "Speciale instructies"
   spree:
     date: Datum
     time: Tijd
