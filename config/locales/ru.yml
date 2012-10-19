@@ -1,5 +1,5 @@
 ---
-ru: 
+ru:
   'no': "Нет"
   'yes': "Да"
   5_biggest_spenders: "5 крупнейших покупателей"
@@ -18,6 +18,7 @@ ru:
     new: "Новый"
     update: "Изменить"
   active: "Активен"
+  activate: Активировать                                                                                                                                                             
   activerecord: 
     attributes: 
       address: 
@@ -272,6 +273,7 @@ ru:
   assign_taxons: "прикрепить к таксонам"
   authorization_failure: "Ошибка авторизации"
   authorized: "Авторизован"
+  availability: "Доступность"
   available_on: "Доступно с"
   available_taxons: "Доступные таксоны"
   awaiting_return: "Ожидает возврата"
@@ -289,7 +291,7 @@ ru:
   both: "везде"
   by_day: "за день"
   calculator: "Калькулятор"
-  calculator_settings_warning: "При изменении типа калькулятора, вы должны сохранить это изменение, прежде чем вы сможете изменить настройки калькулятора."
+  calculator_settings_warning: "При изменении типа калькулятора, вы должны сохранить это изменение, прежде, чем вы сможете изменить настройки калькулятора."
   cancel: "Отмена"
   cancel_my_account: "Удалить мой аккаунт"
   cancel_my_account_description: "Недоволен?"
@@ -357,6 +359,8 @@ ru:
   debit: "Дебет"
   default: "По умолчанию"
   default_seo_title: "SEO-заголовок по умолчанию"
+  default_tax: "Стандартный налог"
+  default_tax_zone: "Стандартный налоговый регион"
   delete: "Удалить"
   delivery: "Доставка"
   depth: "Глубина"
@@ -490,6 +494,7 @@ ru:
   last_name: "Фамилия"
   last_name_begins_with: "Фамилия начинается с"
   last_year: "Предыдущий год"
+  learn_more: "Узнать больше" 
   leave_blank_to_not_change: "(оставьте пустым, если не хотите менять его)"
   list: "Список"
   listing_categories: "Список категорий"
@@ -513,6 +518,11 @@ ru:
   logout: "Выйти"
   look_for_similar_items: "Посмотрите похожие товары"
   maestro_or_solo_cards: "Кредитные карты Maestro/Solo"
+  match_rule: "Соответствие правилам"
+  match_choices:
+    none: "Ни одному"
+    one: "Одному"
+    all: "Всем"
   mail_delivery_enabled: "Доставка почты включена"
   mail_delivery_not_enabled: "Доставка почты не включена"
   mail_methods: "Методы отправки почты"
@@ -816,7 +826,7 @@ ru:
         name: "Имеет свойство с указанным значением  "
         sentence: "есть свойство <em>%s</em> со значением <em>%s</em>"
   products: "Товары"
-  products_with_zero_inventory_display: "Отсутсвующие товары %{not} будут отображаться"
+  products_with_zero_inventory_display: "Отсутствующие товары %{not} будут отображаться"
   promotion: "Промо-акция"
   promotion_form: 
     match_policies: 
@@ -886,6 +896,7 @@ ru:
   rules: "Правила"
   sales_tax: "Налог с продаж"
   sales_total: "Итого (продажи)"
+  sales_totals: "Итого (продажи)"
   sales_total_description: "Общий объём продаж по всем заказам"
   save_and_continue: "Сохранить и продолжить"
   save_preferences: "Сохранить настройки"
@@ -929,6 +940,7 @@ ru:
   shipping_categories: "Категории доставки"
   shipping_categories_description: "Настройка категорий доставки - укажите, какие товары могут быть доставлены какими способами"
   shipping_category: "Категория доставки"
+  shipping_category_choose: "Выберите метод доставки"
   shipping_cost: "Стоимость"
   shipping_error: "Ошибка при доставке"
   shipping_instructions: "Иструкции по доставке"
