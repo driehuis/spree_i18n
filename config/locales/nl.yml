@@ -52,9 +52,9 @@ nl-NL:
       country:
         iso: ISO
         iso3: ISO3
-        iso_name: "ISO Naam"
+        iso_name: "ISO naam"
         name: Naam
-        numcode: "ISO Code"
+        numcode: "ISO code"
       creditcard:
         cc_type: Type
         month: Maand
@@ -77,14 +77,14 @@ nl-NL:
         state: "Staat/Provincie"
         total: Totaal
       product:
-        available_on: "Beschikbaar Op"
+        available_on: "Beschikbaar op"
         cost_price: "Kostprijs"
         description: Omschrijving
         master_price: "Prijs"
         name: Naam
-        on_hand: "Op Voorraad"
+        on_hand: "Op voorraad"
         shipping_category: "Verzend-categorie"
-        tax_category: "Tax Category"
+        tax_category: "Tax category"
       product_group:
         name: "Naam"
         product_count: "Product aantal"
@@ -240,16 +240,16 @@ nl-NL:
   alt_text: Alternatieve tekst
   alternative_phone: Tweede telefoon
   amount: Bedrag
-  analytics_trackers: Analytics Trackers
+  analytics_trackers: Analytics trackers
   api:
-    access: "API Access"
+    access: "API access"
     clear_key: "Clear API key"
     errors:
       invalid_event: "Invalid event name, valid names are %{events}"
       invalid_event_for_object: "Valid event name but not allowed for this object, valid names are %{events}"
       missing_event: "No event name supplied"
     generate_key: "Generate API key"
-    key: "API Key"
+    key: "API key"
     key_cleared: "API key cleared"
     key_generated: "API key generated"
     no_key: "No key defined"
@@ -269,8 +269,8 @@ nl-NL:
   available_taxons: "Beschikbare taxons"
   awaiting_return: In afwachting van retour
   back: Terug
-  back_end: Back End
-  back_to_store: "Verder Winkelen"
+  back_end: Backend
+  back_to_store: "Verder winkelen"
   backordered: In nabestelling
   backordering_is_allowed: "Nabestellen %{not} toegestaan"
   balance_due: "Te betalen"
@@ -313,14 +313,14 @@ nl-NL:
   complete: compleet
   complete_list: "Complete lijst"
   configuration: Configuratie
-  configuration_options: "Configuratie Opties"
+  configuration_options: "Configuratie opties"
   configurations: Configuraties
   configured: Configured
   confirm: Bevestig
   confirm_delete: "Bevestig verwijderen"
   confirm_password: "Wachtwoord bevestiging"
-  continue: "Ga Verder"
-  continue_shopping: "Verder Winkelen"
+  continue: "Ga verder"
+  continue_shopping: "Verder winkelen"
   copy_all_mails_to: "Kopieer alle mails naar"
   cost_price: "Kostprijs"
   count: Aantal
@@ -337,7 +337,7 @@ nl-NL:
   credit: Credit
   credit_card: "Creditcard"
   credit_card_capture_complete: "Afboeking via creditcard voltooid"
-  credit_card_payment: "Creditcard Betaling"
+  credit_card_payment: "Creditcard betaling"
   credit_owed: "Verschildigd krediet"
   credit_total: Totaal krediet
   credits: Credits
@@ -346,7 +346,7 @@ nl-NL:
   customer_details: "Klant details"
   customer_search: "Klant zoeken"
   date_created: Datum aangemaakt
-  date_range: "Datum Bereik"
+  date_range: "Datum bereik"
   debit: Debit
   default: Verstekwaarde
   delete: Verwijder
@@ -361,7 +361,7 @@ nl-NL:
   edit: Wijzig
   edit_general_settings: "Algemene instellingen wijzigen"
   editing_billing_integration: Factuurintegratie wijzigen
-  editing_category: "Wijzig Categorie"
+  editing_category: "Wijzig categorie"
   editing_mail_method: "E-Mail methode wijzigen"
   editing_option_type: "Optie type wijzigen"
   editing_option_types: "Optie types wijzigen"
@@ -373,7 +373,7 @@ nl-NL:
   editing_prototype: "Prototype wijzigen"
   editing_shipping_category: "Wijzigen verzend-categorie"
   editing_shipping_method: "Wijzigen verzendwijze"
-  editing_state: "Wijzigen Staat"
+  editing_state: "Wijzigen staat"
   editing_tax_category: "Wijzigen BTW categorie"
   editing_tax_rate: "Belastingtarief wijzigen"
   editing_tracker: "Tracker wijzigen"
@@ -400,7 +400,7 @@ nl-NL:
     one: "Door één fout kon deze bestandsregel niet worden opgeslagen"
     other: "Door %{count} fouten kon deze bestandsregel niet worden opgeslagen"
   event: Gebeurtenis
-  existing_customer: "Bestaande Klant"
+  existing_customer: "Bestaande klant"
   expiration: "Vervaldatum"
   expiration_month: "Vervalmaand"
   expiration_year: "Vervaljaar"
@@ -422,7 +422,7 @@ nl-NL:
   forgot_password: "Wachtwoord vergeten"
   free_shipping: Gratis verzending
   from_state: Afzender staat
-  front_end: Front End
+  front_end: Frontend
   full_name: "Volledige naam"
   gateway: Gateway
   gateway_config_unavailable: "Gateway configuratie niet beschikbaar"
@@ -437,13 +437,13 @@ nl-NL:
   google_analytics_active: "Actief"
   google_analytics_create: "Nieuw Google Analytics account aanmaken"
   google_analytics_id: "Analytics ID"
-  google_analytics_new: "Nieuwe Google Analytics Account"
+  google_analytics_new: "Nieuwe Google Analytics account"
   google_analytics_setting_description: "Instellen Google Analytics ID"
-  guest_checkout: Als Gast bestellen
-  guest_user_account: Als Gast bestellen (geen registratie)
+  guest_checkout: Als gast bestellen
+  guest_user_account: Als gast bestellen (geen registratie)
   has_no_shipped_units: Heeft geen verzonden units
   height: Hoogte
-  hello_user: "Hallo Gebruiker"
+  hello_user: "Hallo gebruiker"
   history: Geschiedenis
   home: "Home"
   icon: "Icoon"
@@ -461,14 +461,14 @@ nl-NL:
   intercept_email_instructions: "Verstuur aan dit adres in plaats van het gebruikers-emailadres."
   invalid_search: "Foute zoekcriteria."
   inventory: Voorraad
-  inventory_adjustment: "Voorraad Aanpassing"
+  inventory_adjustment: "Voorraad aanpassing"
   inventory_setting_description: "Voorraad instellingen, nabestellingen, Nul-voorraad weergave"
   inventory_settings: "Voorraad instellingen"
   is_not_available_to_shipment_address: Niet beschikbaar voor dit verzendadres
   issue_number: Voorval nummer
   item: Producten
-  item_description: "Product Omschrijving"
-  item_total: "Product Totaal"
+  item_description: "Product omschrijving"
+  item_total: "Product totaal"
   item_total_rule:
     operators:
       gt: groter dan
@@ -527,7 +527,7 @@ nl-NL:
   new_adjustment: "Nieuwe prijsaanpassingen"
   new_billing_integration: Nieuwe factuurintegratie
   new_category: "Nieuwe categorie"
-  new_customer: "Nieuwe Klant"
+  new_customer: "Nieuwe klant"
   new_image: "Nieuwe afbeelding"
   new_mail_method: Nieuwe mail methode
   new_option_type: "Nieuw optie type"
@@ -549,8 +549,8 @@ nl-NL:
   new_tax_category: "Nieuwe BTW categorie"
   new_tax_rate: "Nieuw BTW tarief"
   new_taxon: "Nieuwe taxon"
-  new_taxonomy: "Nieuwe Taxonomie"
-  new_tracker: Nieuwe Tracker
+  new_taxonomy: "Nieuwe taxonomie"
+  new_tracker: Nieuwe tracker
   new_user: "Nieuwe gebruiker"
   new_variant: "Nieuwe variant"
   new_zone: "Nieuwe zone"
@@ -625,7 +625,7 @@ nl-NL:
   out_of_stock_products: "Producten niet op voorraad"
   over_paid: "Teveel betaald"
   overview: Overzicht
-  overview_welcome: "Welcome to your store overview, currently we do not have enough data to display the Overiew Dashboard.<br/><br/> The dashboard will display automatically once the system has sufficent orders to allow generation of the statistics."
+  overview_welcome: "Welcome to your store overview, currently we do not have enough data to display the Overview Dashboard.<br/><br/> The dashboard will display automatically once the system has sufficent orders to allow generation of the statistics."
   page_only_viewable_when_logged_in: De pagina die u heeft opgevraagd vereist dat u ingelogd bent
   page_only_viewable_when_logged_out: De pagina die u heeft opgevraagd vereist dat u uitgelogd bent
   paid: Betaald
@@ -676,7 +676,7 @@ nl-NL:
   proceed_as_guest: "Nee dank u, ga verder als gast zonder registratie"
   process: Verwerking
   product: Product
-  product_details: "Product Details"
+  product_details: "Product details"
   product_group: Productgroep
   product_group_invalid: Productgroep heeft ongeldige scopes
   product_groups: Productgroepen
@@ -766,7 +766,7 @@ nl-NL:
         args:
           taxon_name: "Taxon naam"
         description: "In specifieke taxon - zonder afgeleiden"
-        name: "In Taxon(zonder afgeleiden)"
+        name: "In taxon (zonder afgeleiden)"
         sentence: in <em>%s</em>
       with:
         args:
@@ -860,7 +860,7 @@ nl-NL:
     successfully_created: "Succesvol gecreëerd!"
     successfully_removed: "Succesvol verwijderd!"
     successfully_updated: "Succesvol aangepast!"
-  response_code: "Antwoord Code"
+  response_code: "Antwoord code"
   resume: "Hervatten"
   resumed: Hervat
   return: Terugzenden
@@ -878,7 +878,7 @@ nl-NL:
   sales_total: "Omzet"
   sales_total_description: "Omzettotaal voor alle bestellingen"
   save_and_continue: Opslaan en doorgaan
-  save_preferences: "Instellingen Opslaan"
+  save_preferences: "Instellingen opslaan"
   scope: Scope
   scopes: Scopes
   search: Zoek
@@ -929,7 +929,7 @@ nl-NL:
   shop_by_taxonomy: "Winkelen op %{taxonomy}"
   shopping_cart: "Winkelwagen"
   show: Show
-  show_active: "Show Active"
+  show_active: "Toon actieve"
   show_deleted: "Toon verwijderde bestellingen"
   show_incomplete_orders: "Toon niet afgewerkte bestellingen"
   show_only_complete_orders: "Toon enkel afgewerkte bestellingen"
@@ -963,7 +963,7 @@ nl-NL:
   start: Start
   start_date: Valid from
   state: Staat
-  state_based: "Status Gebaseerd"
+  state_based: "Status gebaseerd"
   state_setting_description: "Beheer de lijst van staten/provincies die geassocieerd zijn met elk land."
   states: Staten
   status: Status
@@ -978,17 +978,17 @@ nl-NL:
   successfully_updated: "%{resource} has been successfully updated!"
   system: Systeem
   tax: BTW
-  tax_categories: "BTW Categorieën"
+  tax_categories: "BTW categorieën"
   tax_categories_setting_description: "Instellen BTW categorieën om aan te duiden welke producten onderhevig zijn aan BTW."
-  tax_category: "BTW Categorie"
-  tax_rates: "Tax Rates"
+  tax_category: "BTW categorie"
+  tax_rates: "BTW tarieven"
   tax_rates_description: Tax rates setup and configuration.
-  tax_settings: "Tax Settings"
+  tax_settings: "BTW instellingen"
   tax_settings_description: Basic tax settings.
-  tax_total: "BTW Totaal"
-  tax_type: "BTW Type"
+  tax_total: "BTW totaal"
+  tax_type: "BTW type"
   taxon: Taxon
-  taxon_edit: Wijzig Taxon
+  taxon_edit: Wijzig taxon
   taxonomies: Taxonomieën
   taxonomies_setting_description: "Aanmaken en wijzigen taxonomieën"
   taxonomy_edit: "Wijzig taxonomy"
@@ -996,7 +996,7 @@ nl-NL:
   taxonomy_tree_instruction: "* Right click a child in the tree to access the menu for adding, deleting or sorting a child."
   taxons: Taxons
   test: "Test"
-  test_mode: Test Mode
+  test_mode: Test mode
   thank_you_for_your_order: "Hartelijk dank voor uw bestelling. U kan deze pagina afdrukken als bewijs van bestelling."
   there_were_problems_with_the_following_fields: "There were problems with the following fields"
   this_file_language: "Nederlands (NL)"
@@ -1004,14 +1004,14 @@ nl-NL:
   this_year: "Dit jaar"
   thumbnail: "Thumbnail"
   to_add_variants_you_must_first_define: "To add variants, you must first define"
-  to_state: "To State"
-  top_grossing_products: "Top Grossing Products"
+  to_state: "To state"
+  top_grossing_products: "Producten met top omzet"
   total: Totaal
   tracking: Tracking
   transaction: Transactie
-  transactions: Transactions
+  transactions: Transacties
   tree: Structuur
-  try_again: "Probeer Opnieuw"
+  try_again: "Probeer opnieuw"
   type: Type
   type_to_search: Type to search
   unable_ship_method: "Kon geen verzendwijzen genereren door een serverfout."
@@ -1019,22 +1019,22 @@ nl-NL:
   unable_to_capture_credit_card: "Afboeking via creditcard mislukt"
   unable_to_connect_to_gateway: "Unable to connect to gateway."
   unable_to_save_order: "Bestelling opslaan is mislukt"
-  under_paid: "Under Paid"
+  under_paid: "Onderbetaald"
   units: "Units"
   unrecognized_card_type: Unrecognized card type
   update: "Aanpassen"
   update_password: "Wachtwoord opslaan en gebruiken"
   updated_successfully: "Opslaan gelukt"
   updating: Updating
-  usage_limit: Usage Limit
+  usage_limit: Gebruikslimiet
   use_as_shipping_address: "Gebruik als afleveringsadres"
   use_billing_address: "Afleveren op factuuradres"
   use_different_shipping_address: "Ander afleveringsadres gebruiken"
   use_new_cc: "Use a new card"
   user: Gebruiker
-  user_account: "Account Gebruiker"
+  user_account: "Account gebruiker"
   user_created_successfully: "User created successfully"
-  user_details: "Details Gebruiker"
+  user_details: "Details gebruiker"
   user_rule:
     choose_users: Choose users
   users: Gebruikers
@@ -1063,6 +1063,6 @@ nl-NL:
   your_cart_is_empty: "Uw winkelwagen is leeg"
   zip: Postcode
   zone: Zone
-  zone_based: "Zone Gebaseerd"
+  zone_based: "Zone gebaseerd"
   zone_setting_description: "Verzameling van landen, provincies of andere zones om in verschillende berekeningen te gebruiken."
   zones: Zones
