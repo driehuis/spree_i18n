@@ -2,7 +2,7 @@
 nl-NL:
   'no': "Nee"
   'yes': "Ja"
-  5_biggest_spenders: "5 Biggest Spenders"
+  5_biggest_spenders: "5 grootste klanten"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Een kopie van alle mail wordt verzonden naar de volgende adressen"
   abbreviation: Afkorting
   access_denied: "Toegang geweigerd"
@@ -88,7 +88,7 @@ nl-NL:
       product_group:
         name: "Naam"
         product_count: "Product aantal"
-        product_scopes: "Product reikwijdte"
+        product_scopes: "Product scope"
         products: "Producten"
         url: "URL"
       product_scope:
@@ -219,7 +219,7 @@ nl-NL:
   add_product: "Product toevoegen"
   add_product_properties: "Producteigenschap toevoegen"
   add_rule_of_type: Add rule of type
-  add_scope: "Reikwijdte toevoegen"
+  add_scope: "Scope toevoegen"
   add_state: "Toestand toevoegen"
   add_to_cart: "Toevoegen aan winkelwagen"
   add_zone: "Zone toevoegen"
@@ -678,7 +678,7 @@ nl-NL:
   product: Product
   product_details: "Product Details"
   product_group: Productgroep
-  product_group_invalid: Productgroep heeft ongeldige reikwijdtes
+  product_group_invalid: Productgroep heeft ongeldige scopes
   product_groups: Productgroepen
   product_has_no_description: Product heeft geen beschrijving
   product_properties: "Producteigenschappen"
@@ -693,16 +693,16 @@ nl-NL:
   product_scopes:
     groups:
       price:
-        description: "Reikwijdtes voor het selecteren van producten op basis van prijs"
+        description: "Scopes voor het selecteren van producten op basis van prijs"
         name: Prijs
       search:
-        description: "Reikwijdtes voor het selecteren van producten op basis van producteigenschappen"
+        description: "Scopes voor het selecteren van producten op basis van producteigenschappen"
         name: "Zoeken op tekst"
       taxon:
-        description: "Reikwijdtes voor het selecteren van producten op basis van Taxons"
+        description: "Scopes voor het selecteren van producten op basis van Taxons"
         name: Taxon
       values:
-        description: "Reikwijdtes voor het selecteren van producten op basis van optie- en eigenschapwaardes"
+        description: "Scopes voor het selecteren van producten op basis van optie- en eigenschapwaardes"
         name: Waardes
     scopes:
       ascend_by_master_price:
@@ -879,8 +879,8 @@ nl-NL:
   sales_total_description: "Omzettotaal voor alle bestellingen"
   save_and_continue: Opslaan en doorgaan
   save_preferences: "Instellingen Opslaan"
-  scope: Reikwijdte
-  scopes: Reikwijdtes
+  scope: Scope
+  scopes: Scopes
   search: Zoek
   search_results: "Zoekresultaat voor '%{keywords}'"
   searching: Bezig met zoeken
