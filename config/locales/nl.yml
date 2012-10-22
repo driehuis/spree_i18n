@@ -955,13 +955,13 @@ nl-NL:
   spree:
     date: Datum
     time: Tijd
-  spree_gateway_error_flash_for_checkout: "There was a problem with your payment information. Please check your information and try again."
-  ssl_will_be_used_in_development_and_test_modes: "SSL will be used in development and test mode if necessary."
-  ssl_will_be_used_in_production_mode: "SSL will be used in production mode"
-  ssl_will_not_be_used_in_development_and_test_modes: "SSL will not be used in development and test mode if necessary."
-  ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
+  spree_gateway_error_flash_for_checkout: "Er was een probleem met uw betaalgegevens. Verbeter eventueel uw gegevens en probeer het opnieuw."
+  ssl_will_be_used_in_development_and_test_modes: "SSL zal in ontwikkel- en test-omgeving worden gebruikt."
+  ssl_will_be_used_in_production_mode: "SSL zal in productie-omgeving worden gebruikt"
+  ssl_will_not_be_used_in_development_and_test_modes: "SSL zal niet in ontwikkel- en test-omgeving worden gebruikt."
+  ssl_will_not_be_used_in_production_mode: "SSL zal niet in productie-omgeving worden gebruikt"
   start: Start
-  start_date: Valid from
+  start_date: Geldig vanaf
   state: Staat
   state_based: "Status gebaseerd"
   state_setting_description: "Beheer de lijst van staten/provincies die geassocieerd zijn met elk land."
@@ -973,83 +973,83 @@ nl-NL:
   street_address_2: "Adres (vervolg)"
   subtotal: Subtotaal
   subtract: Verreken
-  successfully_created: "%{resource} has been successfully created!"
-  successfully_removed: "%{resource} has been successfully removed!"
-  successfully_updated: "%{resource} has been successfully updated!"
+  successfully_created: "%{resource} is succesvol gecreëerd!"
+  successfully_removed: "%{resource} is succesvol verwijderd!"
+  successfully_updated: "%{resource} is succesvol aangepast!"
   system: Systeem
   tax: BTW
   tax_categories: "BTW categorieën"
   tax_categories_setting_description: "Instellen BTW categorieën om aan te duiden welke producten onderhevig zijn aan BTW."
   tax_category: "BTW categorie"
   tax_rates: "BTW tarieven"
-  tax_rates_description: Tax rates setup and configuration.
+  tax_rates_description: BTW configuratie
   tax_settings: "BTW instellingen"
-  tax_settings_description: Basic tax settings.
+  tax_settings_description: Basis instellingen voor BTW
   tax_total: "BTW totaal"
   tax_type: "BTW type"
   taxon: Taxon
   taxon_edit: Wijzig taxon
   taxonomies: Taxonomieën
   taxonomies_setting_description: "Aanmaken en wijzigen taxonomieën"
-  taxonomy_edit: "Wijzig taxonomy"
-  taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
-  taxonomy_tree_instruction: "* Right click a child in the tree to access the menu for adding, deleting or sorting a child."
+  taxonomy_edit: "Wijzig taxonomie"
+  taxonomy_tree_error: "De gevraagde wijziging kon niet worden doorgevoerd, en de wijzigingen zijn ongedaan gemaakt."
+  taxonomy_tree_instruction: "* Rechts-klik een item in de boom om een item toe te voegen, te verwijderen of te verplaatsen."
   taxons: Taxons
   test: "Test"
   test_mode: Test mode
   thank_you_for_your_order: "Hartelijk dank voor uw bestelling. U kan deze pagina afdrukken als bewijs van bestelling."
-  there_were_problems_with_the_following_fields: "There were problems with the following fields"
+  there_were_problems_with_the_following_fields: "Er waren problemen met de volgende velden"
   this_file_language: "Nederlands (NL)"
   this_month: "Deze maand"
   this_year: "Dit jaar"
-  thumbnail: "Thumbnail"
-  to_add_variants_you_must_first_define: "To add variants, you must first define"
-  to_state: "To state"
+  thumbnail: "Postzegel"
+  to_add_variants_you_must_first_define: "Om varianten toe te kunnen voegen, moet u eerst definiëren"
+  to_state: "Naar staat"
   top_grossing_products: "Producten met top omzet"
   total: Totaal
-  tracking: Tracking
+  tracking: Volgen
   transaction: Transactie
   transactions: Transacties
   tree: Structuur
   try_again: "Probeer opnieuw"
-  type: Type
-  type_to_search: Type to search
+  type: Typ
+  type_to_search: Typ om te zoeken
   unable_ship_method: "Kon geen verzendwijzen genereren door een serverfout."
   unable_to_authorize_credit_card: "Autorisatie van de creditcard mislukt"
   unable_to_capture_credit_card: "Afboeking via creditcard mislukt"
-  unable_to_connect_to_gateway: "Unable to connect to gateway."
-  unable_to_save_order: "Bestelling opslaan is mislukt"
+  unable_to_connect_to_gateway: "Kon geen verbinding maken met betaalverwerker."
+  unable_to_save_order: "Opslaan van uw bestelling is mislukt"
   under_paid: "Onderbetaald"
-  units: "Units"
-  unrecognized_card_type: Unrecognized card type
+  units: "Eenheden"
+  unrecognized_card_type: Onbekende kaartsoort
   update: "Aanpassen"
   update_password: "Wachtwoord opslaan en gebruiken"
   updated_successfully: "Opslaan gelukt"
-  updating: Updating
+  updating: Aan het bijwerken
   usage_limit: Gebruikslimiet
   use_as_shipping_address: "Gebruik als afleveringsadres"
   use_billing_address: "Afleveren op factuuradres"
   use_different_shipping_address: "Ander afleveringsadres gebruiken"
-  use_new_cc: "Use a new card"
+  use_new_cc: "Gebruik een nieuwe kaart"
   user: Gebruiker
-  user_account: "Account gebruiker"
-  user_created_successfully: "User created successfully"
-  user_details: "Details gebruiker"
+  user_account: "Gebruikersaccount"
+  user_created_successfully: "Gebruiker succesvol aangemaakt"
+  user_details: "Gebruikersdetails"
   user_rule:
-    choose_users: Choose users
+    choose_users: Kies gebruikers
   users: Gebruikers
-  validate_on_profile_create: Validate on profile create
+  validate_on_profile_create: Valideer tijdens profieldcreatie
   validation:
-    cannot_be_less_than_shipped_units: "cannot be less than the number of shipped units."
-    is_too_large: "is too large -- stock on hand cannot cover requested quantity!"
-    must_be_int: "must be an integer"
-    must_be_non_negative: "must be a non-negative value"
+    cannot_be_less_than_shipped_units: "Kan niet minder zijn dan het aantal verzonden eenheden."
+    is_too_large: "is te groot -- niet voldoende in voorraad!"
+    must_be_int: "moet een geheel getal zijn"
+    must_be_non_negative: "getal mag niet negatief zijn"
   value: Waarde
   variants: Varianten
-  vat: "VAT"
+  vat: "BTW"
   version: Versie
-  view_shipping_options: "View shipping options"
-  void: Void
+  view_shipping_options: "Bekijk verzendmogelijkheden"
+  void: Ongeldig
   website: Website
   weight: Gewicht
   welcome_to_sample_store: "Welkom in de voorbeeldwinkel"
