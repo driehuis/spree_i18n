@@ -232,7 +232,7 @@ nl-NL:
   administration: Administratie
   all: "Alle"
   all_departments: Alle afdelingen
-  allow_backorders: "Nabestellingen toelaten"
+  allow_backorders: "Naleveringen toelaten"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: "SSL gebruik toestaan in ontwikkel- en testomgevingen"
   allow_ssl_to_be_used_when_in_production_mode: "SSL gebruik toestaan in productie-omgeving"
   allowed_ssl_in_production_mode: "SSL zal %{not} worden gebruikt in productie"
@@ -271,8 +271,8 @@ nl-NL:
   back: Terug
   back_end: Backend
   back_to_store: "Verder winkelen"
-  backordered: In nabestelling
-  backordering_is_allowed: "Nabestellen %{not} toegestaan"
+  backordered: In nalevering
+  backordering_is_allowed: "Naleveren %{not} toegestaan"
   balance_due: "Te betalen"
   best_selling_products: "Best verkopende producten"
   best_selling_taxons: "Best verkopende taxons"
@@ -462,7 +462,7 @@ nl-NL:
   invalid_search: "Foute zoekcriteria."
   inventory: Voorraad
   inventory_adjustment: "Voorraad aanpassing"
-  inventory_setting_description: "Voorraad instellingen, nabestellingen, Nul-voorraad weergave"
+  inventory_setting_description: "Voorraad instellingen, naleveringen, Nul-voorraad weergave"
   inventory_settings: "Voorraad instellingen"
   is_not_available_to_shipment_address: Niet beschikbaar voor dit verzendadres
   issue_number: Voorval nummer
@@ -906,7 +906,7 @@ nl-NL:
   shipment_number: "Zending #"
   shipment_state: Verzendingstoestand
   shipment_states:
-    backorder: in nabestelling
+    backorder: in nalevering
     partial: deellevering
     pending: in afwachting
     ready: klaar
