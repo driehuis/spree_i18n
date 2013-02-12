@@ -210,7 +210,7 @@ nl-NL:
       zone:
         one: Zone
         other: Zones
-  add: Toevoegen
+  add: Meerprijs
   add_category: "Categorie toevoegen"
   add_country: "Land toevoegen"
   add_option_type: "Optietype toevoegen"
