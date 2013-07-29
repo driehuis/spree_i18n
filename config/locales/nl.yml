@@ -899,7 +899,7 @@ nl-NL:
   ship: Verzenden
   ship_address: "Afleveringssadres"
   shipment: Verzending
-  shipment_details: Details van de zebding
+  shipment_details: Details van de zending
   shipment_mailer:
     shipped_email:
       subject: "Notificatie van verzending"
