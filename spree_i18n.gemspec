@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_i18n'
-  s.version     = '3.0.0'
+  s.version     = '1.2.0'
   s.summary     = 'Provides locale information for use in Spree.'
   s.description = 'Provides locale information for use in Spree.'
 
-  s.author      = 'Sean Schofield'
-  s.email       = 'sean.schofield@gmail.com'
+  s.author      = 'Bert Driehuis, based on work by Sean Schofield'
+  s.email       = 'bert.driehuis@gmail.com'
   s.homepage    = 'http://spreecommerce.com'
   s.rubyforge_project = 'spree_i18n'
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'rails-i18n', '~> 0.7.3'
-  s.add_dependency 'spree_core', '~> 2.2.0.beta'
+  s.add_dependency 'spree_core', '~> 1.2.0'
   s.add_dependency 'globalize', '~> 4.0.0.alpha.1'
 
   s.add_development_dependency 'rspec-rails', '~> 2.13'
