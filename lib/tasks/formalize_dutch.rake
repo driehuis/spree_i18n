@@ -13,10 +13,10 @@ namespace :lang do
     infd.each do |line|
       line.gsub!(/je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen|sessie|instellingen)/, 'uw \1')
       line.gsub!(/Je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen|sessie|instellingen)/, 'Uw \1')
-      line.gsub!(/je (bent|hebt|dient|moet|ontvangt|kunt|Kon)/, 'u \1')
-      line.gsub!(/Je (bent|hebt|dient|moet|ontvangt|kunt|Kon)/, 'U \1')
+      line.gsub!(/je (bent|hebt|dient|moet|ontvangt|kunt)/, 'u \1')
+      line.gsub!(/Je (bent|hebt|dient|moet|ontvangt|kunt)/, 'U \1')
       line.gsub!(/Je kan/, 'U kunt')
-      line.gsub!(/(Weet|Als|als|voordat|dat|naar|hopen|konden|tenzij) je/, '\1 u')
+      line.gsub!(/(Weet|Als|Kon|als|voordat|dat|naar|hopen|konden|tenzij) je/, '\1 u')
       line.gsub!(/(Wil|dien|ontvang|vul) je/, '\1t u')
       line.gsub!(/Wilt je/, 'Wilt u')  # tijdelijk
       line.gsub!(/je verder gaat/, 'verder te gaan')
