@@ -6,9 +6,10 @@ namespace :lang do
   task :formalize_dutch => :environment do
     i18n_dir = `bundle show spree_i18n`.chomp
     infile = i18n_dir + "/config/locales/nl.yml"
-    outfile = "#{File.dirname(__FILE__)}/../../config/locales/nl.yml.new"
+    outfile = "#{File.dirname(__FILE__)}/../../config/locales/nl.yml"
+    outfiletmp = "#{outfile}.tmp"
     infd = File.open infile
-    outfd = File.open outfile, mode="w"
+    outfd = File.open outfiletmp, mode="w"
     infd.each do |line|
       line.gsub!(/je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen)/, 'uw \1')
       line.gsub!(/Je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen)/, 'Uw \1')
@@ -22,5 +23,6 @@ namespace :lang do
     end
     infd.close
     outfd.close
+    File.rename outfiletmp, outfile
   end
 end
