@@ -11,14 +11,16 @@ namespace :lang do
     infd = File.open infile
     outfd = File.open outfiletmp, mode="w"
     infd.each do |line|
-      line.gsub!(/je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen)/, 'uw \1')
-      line.gsub!(/Je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen)/, 'Uw \1')
-      line.gsub!(/je (bent|hebt)/, 'u \1')
-      line.gsub!(/Je (bent|hebt)/, 'U \1')
+      line.gsub!(/je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen|sessie|instellingen)/, 'uw \1')
+      line.gsub!(/Je (account|adres|betaalgegevens|bestelling|e-mail|gegevens|huidige|order|wachtwoord|winkelwagen|sessie|instellingen)/, 'Uw \1')
+      line.gsub!(/je (bent|hebt|dient|moet|ontvangt|kunt|Kon)/, 'u \1')
+      line.gsub!(/Je (bent|hebt|dient|moet|ontvangt|kunt|Kon)/, 'U \1')
       line.gsub!(/Je kan/, 'U kunt')
-      line.gsub!(/(Weet|Als|als|voordat|dat|naar) je/, '\1 u')
-      line.gsub!(/(Wil|dien) je/, '\1t u')
+      line.gsub!(/(Weet|Als|als|voordat|dat|naar|hopen|konden|tenzij) je/, '\1 u')
+      line.gsub!(/(Wil|dien|ontvang|vul) je/, '\1t u')
       line.gsub!(/Wilt je/, 'Wilt u')  # tijdelijk
+      line.gsub!(/je verder gaat/, 'verder te gaan')
+      line.gsub!(/in je/, 'in uw')
       outfd.write(line)
     end
     infd.close
