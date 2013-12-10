@@ -21,6 +21,10 @@ namespace :lang do
       line.gsub!(/Wilt je/, 'Wilt u')  # tijdelijk
       line.gsub!(/je verder gaat/, 'verder te gaan')
       line.gsub!(/in je/, 'in uw')
+      # For the 1-3-stable branch, undo the namespacing in the 2-x branch
+      if line.match(/^\s*spree\S+\/\S+:\s*$/)
+        line.gsub!(/spree\S+\//, '')
+      end
       outfd.write(line)
     end
     infd.close
