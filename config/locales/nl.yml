@@ -631,6 +631,12 @@ nl:
       subject: "Bestelling is geannuleerd"
     confirm_email:
       subject: "Bevestiging is bevestigd"
+      instructions: "Instructies"
+      dear_customer: "Geachte klant"
+      order_summary: "Uw bestelling"
+      subtotal: "Subtotaal"
+      total: "Totaal"
+      thanks: "Hartelijk dank voor uw bestelling"
   order_not_in_system: "Het order nummer komt bij ons niet voor"
   order_number: "Nummer bestelling"
   order_operation_authorize: "Goedkeuren"
