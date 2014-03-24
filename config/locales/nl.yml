@@ -630,7 +630,7 @@ nl:
     cancel_email:
       subject: "Bestelling is geannuleerd"
     confirm_email:
-      subject: "Bevestiging is bevestigd"
+      subject: "Bestelling is bevestigd"
       instructions: "Instructies"
       dear_customer: "Geachte klant"
       order_summary: "Uw bestelling"
