@@ -961,7 +961,7 @@ nl:
   shipment_updated: "Zending bijgewerkt"
   shipments: "Verzendingen"
   shipped: "verzonden"
-  shipping: "Verzenden"
+  shipping: "Verzending"
   shipping_address: "Afleveradres"
   shipping_categories: "Verzend-categorieën"
   shipping_categories_description: "Beheer verzend-categorieën om duidelijk te maken op welke wijze producten verzonden kunnen worden"
