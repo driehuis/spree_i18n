@@ -662,7 +662,7 @@ nl:
   order_updated: "Bestelling gewijzigd"
   orders: "Bestellingen"
   other_payment_options: "Andere betaalmethodes"
-  out_of_stock: "Niet op voorraad"
+  out_of_stock: "(mogelijk niet op voorraad, bel of e-mail voor levertijd)"
   out_of_stock_products: "Producten zonder voorraad"
   over_paid: "Teveel betaald"
   overview: "Overzicht"
